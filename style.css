@@ -1,6 +1,4 @@
 body{
-
-	text-align: center;
 	font-family: Open Sans,Arial;
 	color: #454545;
 	font-size: 16px;
@@ -8,12 +6,7 @@ body{
 	text-align: justify;
 }
 
-span.italic{
-	font-style: italic;
-}
-
-h1, h2, h3 {
-    line-height: 1.2;
+h1, h2{
 	color: #454545
 	font-family: Comic Sans MS;
 }
@@ -23,6 +16,9 @@ p{
 	color: #454545;
 }
 
+.wrong{
+	font-weight: bold; 
+	color: #aa3300
 }
 
 a:link{
@@ -35,3 +31,4 @@ a:visited {
 
 a:hoover, a:focus {
 	color: #0077aa;
+}
